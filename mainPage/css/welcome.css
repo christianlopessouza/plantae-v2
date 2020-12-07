@@ -1,0 +1,116 @@
+
+.welcome{
+    height: 100vh;
+}
+
+.welcome .container{
+    position: absolute;
+    top: 0;    
+}
+
+.welcome article{ 
+    width: 100%;
+    max-width: 1170px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+/*Middle Bar*/
+.welcome .middle{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    z-index: -2;
+}
+
+.welcome .middle img{
+    position: absolute;
+    bottom: 0px;
+    width: 100vh;
+    z-index: -1;
+}
+
+/*Left Bar*/
+.welcome .left-side .textBox{
+    max-width: 300px;
+}
+
+.welcome .left-side h1{
+    font-size: 52px;
+    line-height: 60px;   
+    font-weight: 400; 
+}
+
+.welcome .left-side p, .right-side p{
+    font-size: 16px;
+    line-height: 26px;  
+    margin-top: 15px    
+}
+
+.welcome .left-side .textBox{
+    margin-top: 120px;
+}
+
+
+.welcome .divButtons button{/*Buttons*/
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    font-size: 15px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;  
+    background: transparent;
+    border: solid 3px #000;
+    cursor: pointer;
+    outline: none;
+}
+
+.welcome .divButtons{
+    margin-top:20px;
+    display: flex;
+}
+
+.welcome #buttonFocus{
+    background:#000;
+    color:#fff;
+    border:none
+}
+
+.welcome .divButtons button {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+
+.welcome .divButtons button:hover, .welcome .divButtons button:focus, .welcome .divButtons button:active {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+  
+
+
+/*Right Bar*/
+.welcome .right-side h2{
+    font-size: 30px;
+    font-weight: 500;    
+}
+
+.welcome .right-side .textBox{
+    position: absolute;
+    bottom: 0;
+    margin-left: 30px;
+    margin-bottom: 35px;
+    max-width: 380px;
+}
+

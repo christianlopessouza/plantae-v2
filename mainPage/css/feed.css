@@ -1,0 +1,129 @@
+.feed{
+    height: 100vh;
+    max-height: 100vh;
+
+}
+
+.feed .container{
+    height: 100%;
+}
+
+.feed article{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    margin-top: 60px;
+    max-width: 1170px;
+}
+
+.feed aside, .feed aside .menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.feed aside{
+    justify-content: space-between;
+    height: 100%; 
+}
+
+.feed aside h3{
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.feed aside a{
+    line-height: 30px;
+    color: grey;
+}
+
+.feed aside a#active{
+    font-weight: 500;
+    color: black;
+}
+
+.feed button{
+    border: none;
+    margin-bottom: 40px;
+    padding: 15px;
+    color: white;
+    background-color: #000;
+    font-size: 16px; 
+    font-weight: 300;
+}
+
+.feed button:hover{
+    background-color: rgb(48, 48, 48);  
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.feed .profilebar a{
+    font-weight: 600;
+}
+
+.feed .profilebar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.feed .profileinfo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.feed .profilebar img{
+    width: 35px;
+    margin-left: 5px;
+}
+
+.feed .card{
+    width: 200px;
+    height: 300px;
+}
+
+.feed .card{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.feed .card .image{
+    width: 100%;
+    height: 85%;
+    background-color: rgb(241, 241, 241);
+}
+
+.feed .card h1{
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.feed .card h3{
+    font-size: 14px;
+    color: rgb(163, 163, 163);
+    font-weight: 500;
+ 
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+main .listCards {
+    display: flex;
+    position: relative;
+    overflow-y: scroll;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+main .listCards::-webkit-scrollbar {
+    display: none;
+}

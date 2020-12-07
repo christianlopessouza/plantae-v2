@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+nav img{
+    width: 140px;
+}
+
+nav{
+    display: flex;
+    height: 86px;
+    margin-bottom: 40px;
+    align-items: center; 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+article{   
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.left-side{
+    justify-self: center;
+    margin-right: 84px;
+
+}
+.right-side {
+    background-image: url("../src/registerBack.png ");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;    
+    display: flex;
+}
+
+.right-side .glass{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    background-image: url("../src/glass.png");
+    border-radius: 20px;
+}
+
+.form input[type=text], .register .form input[type=password],.register .form input[type=email]{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-size: 16px;
+    padding: 35px 10px 10px 10px;
+    border: solid #c5c5c5 2px;
+    outline: none;
+    font-weight: 900;
+    background-color: transparent;
+}
+
+.form input[type=submit]{
+    text-align: center;
+    width: 110px;
+    padding: 10px 0px 10px 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;  
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;  
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform; 
+    border-radius: 4px;   
+
+}
+
+input:-webkit-autofill::first-line {font-size: 12px}
+
+input:-webkit-autofill, input:focus:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 100px white inset;
+ }
+
+.form #name{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.form #password,
+.form #email{
+    border-radius: 0px 0px 0px 0px;
+    border-top: none;
+}
+
+.form #cpassword{
+    border-radius: 0px 0px 5px 5px;
+    border-top: none;
+}
+
+.inputText label{
+    position: absolute;
+    top: -5px;
+    font-size: 13px;
+    margin-left: 12px;
+    padding: 20px 0;
+    pointer-events: none;
+    color:#a5a5a5;
+    font-weight: 500;
+}
+
+.inputText{
+    position: relative;
+}
+
+
+.inputText input[type="text"]:focus,
+.inputText input[type="email"]:focus,
+.inputText input[type="cpassword"]:focus,
+.inputText input[type="password"]:focus{
+    transition: 0.5s;
+    border-left: solid 2px #d8002f;
+}
+
+#name:focus,
+#cpassword:focus{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;    
+}
+
+h1{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+p{
+    font-size: 14px;
+    width: 280px;
+    line-height: 20px;
+    margin-bottom: 40px;  
+}
+
+.divButtons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;    
+}
+
+.divButtons label{
+    font-weight: 600;
+    font-size: 15px;    
+}
+
+.divButtons input[type="submit"]:hover, .welcome .divButtons input[type="submit"]:focus, .welcome .divButtons input[type="submit"]:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+ 
+.fields{
+    -webkit-box-shadow: -1px 12px 30px 0px rgba(50, 50, 50, 0.24);
+    -moz-box-shadow:    -1px 12px 30px 0px rgba(50, 50, 50, 0.24);
+    box-shadow:         -1px 12px 30px 0px rgba(50, 50, 50, 0.24);
+    border-radius: 6px; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.right-side h1{
+    margin-top: 10px;   
+    margin-left: 25px;  
+    font-size: 52px;    
+    width: 40%;
+}
+
+.right-side{
+    justify-self: left;
+}
+
