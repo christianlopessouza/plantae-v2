@@ -1,8 +1,8 @@
 # Plantae! (ongoing project)
-![home](https://github.com/christianlopessouza/plantae-v1/blob/main/prints/home.PNG?raw=true)
-![feed](https://github.com/christianlopessouza/plantae-v1/blob/main/prints/feed.PNG?raw=true)
-![login](https://github.com/christianlopessouza/plantae-v1/blob/main/prints/login.PNG?raw=true)
-![register](https://github.com/christianlopessouza/plantae-v1/blob/main/prints/register.PNG?raw=true)
+![home](https://github.com/christianlopessouza/plantae-v2/blob/main/prints/home.PNG?raw=true)
+![feed](https://github.com/christianlopessouza/plantae-v2/blob/main/prints/feed.PNG?raw=true)
+![login](https://github.com/christianlopessouza/plantae-v2/blob/main/prints/login.PNG?raw=true)
+![register](https://github.com/christianlopessouza/plantae-v2/blob/main/prints/register.PNG?raw=true)
 
 
 
