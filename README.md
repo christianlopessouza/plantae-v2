@@ -13,9 +13,7 @@ the Botanical community to take care of their plants. On this site when you regi
 You can vote in the option that you think it is the most correct! you decide
 
 ## Technologies Used
-- PHP > Used to make the connection between the database with website, like 'login' and 'register' page
 - CSS 
-- MySQL 
 
 ## Getting Start
 To start the website it is necessary to have a php website executor, they can be used:
